@@ -15,17 +15,17 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/development.html#single-sourcing-the-version
-    version='0.0.1',
+    version='0.0.2',
 
     description='Probabilistic topic model',
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/arongdari/python-topic-model/',
+    url='https://github.com/ponshane/python-topic-model',
 
     # Author details
-    author='Dongwoo Kim',
-    author_email='arongdari@gmail.com',
+    author='Chia Hsuan Chang',
+    author_email='sham82503@gmail.com',
 
     # Choose your license
     license='Apache License 2.0',
@@ -57,7 +57,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords=['topic model', 'latent dirichelt allocation', 'hierarchical dirichlet process', 'lda', 'hdp'],
+    keywords=['topic model', 'latent dirichelt allocation', 'hierarchical dirichlet process', 'lda', 'hdp', 'jointlda'],
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -68,7 +68,7 @@ setup(
     # project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/technical.html#install-requires-vs-requirements-files
-    install_requires=['numpy', 'scipy', 'nltk', 'six',],
+    install_requires=['numpy', 'scipy', 'nltk', 'six', 'gensim'],
 
     # List additional groups of dependencies here (e.g. development dependencies).
     # You can install these using the following syntax, for example:
